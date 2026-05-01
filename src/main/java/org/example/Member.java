@@ -6,7 +6,7 @@ public class Member {
 
     private String[] books;
 
-    public Member(String[] books){
+    public Member(){
         this.books = books;
     }
 
@@ -14,7 +14,12 @@ public class Member {
         return books;
     }
 
-//    public void setBooks(String book) {
+    public void setBooks(String[] books) {
+        this.books = books;
+    }
+
+
+    //    public void setBooks(String book) {
 //        books += book;
 //    }
 }
